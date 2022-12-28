@@ -29,15 +29,37 @@
 
     <section class="main">
 
-        <section class="operation-select"></section>
-
-        <section class="game">
-            <div id="problem"></div>
-            <button class="submit">Submit!</button>
-            <div id="score"></div>
+        <section class="operation-select">
+            <button id="addition">Addition</button>
+            <button id="subtraction">Subtraction</button>
+            <button id="multiplication">Multiplication</button>
+            <button id="division">Division</button>
         </section>
 
-        <section class="difficulty-select"></section>
+        <section class="game">
+            <div id="problem">
+                <span id="num1">0</span>
+                <span id="operation">+</span>
+                <span id="num2">0</span>
+                <span>=</span>
+                <input type="text" id="answer">
+            </div>
+            <button class="submit">Submit!</button>
+            <div id="score">
+                <span>Correct:</span>
+                <span id="correct-answers">0</span>
+                <br>
+                <span>Incorrect:</span>
+                <span id="incorrect-answers">0</span>
+            </div>
+        </section>
+
+        <section class="difficulty-select">
+            <button id="easy">Easy</button>
+            <button id="medium">Medium</button>
+            <button id="hard">Hard</button>
+            <button id="pro">Pro</button>
+        </section>
 
     </section>
 
