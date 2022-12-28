@@ -47,3 +47,7 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+#answer {
+    padding: 5px;
+}
